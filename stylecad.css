@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+button {
+    font-size: 16px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+a {
+    font-size: 16px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 40px 40px;
+    background-color: #0F3F6B;
+    margin-bottom: 1em;
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.form-container {
+    width: 100svw;
+}
+
+form {
+    width: 600px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    padding: 2em 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 300px;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+}
+
+form button {
+    width: 300px;
+    background-color: #0F3F6B;
+    color: #FFF;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0.5em;
+}
+
+.bottom-form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-form p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.signin-google {
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: #0F3F6B;
+    color: #FFF;
+    padding: 0.5em;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.signup {
+    width: 300px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0F3F6B;
+    color: #FFF;
+    padding: 0.5em;
+    border-radius: 20px;
+}
